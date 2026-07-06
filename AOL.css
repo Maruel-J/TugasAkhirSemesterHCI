@@ -1,0 +1,560 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden; 
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+
+
+/* Menu dan Footer */
+.navMenu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(26, 25, 25, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    
+}
+
+.navContent{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    border: 8px solid rgb(26, 25, 25, 0.1);
+    background-color: rgb(26, 25, 25, 0.0);
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.navContentActive{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    border: 8px solid rgb(70, 11, 122);
+    text-decoration: none;
+    font-size: 20px;   
+}
+
+#logo{
+    width: 60.28px;
+    height: 29.09px;
+}
+
+.overlay{
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    background-color:rgb(0, 0, 0, 0.9) ;
+    overflow-x: hidden;
+}
+.overlay-content{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay-Cfont{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #ffffff;
+    display: block;
+}
+.overlay-CfontActive{
+    padding: 8px;
+    border: 3px solid rgb(70, 11, 122);
+    text-decoration: none;
+    font-size: 36px;
+    color: #ffffff;
+    display: block;
+}
+
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.menu-icon{
+    float: right;
+    text-align: center;
+    padding: 6px 7px;
+    border: 8px solid rgb(26, 25, 25, 0.1);
+    width: 35.21px;
+    height: 29.09px;
+    display: none;
+}
+
+.close-button{
+    float: right;
+    text-align: center;
+    padding: 6px 7px;
+    border: 8px solid rgb(26, 25, 25, 0.1);
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.menu-logo{
+    float: left;
+    text-align: center;
+    padding: 6px 7px;
+    border: 8px solid rgb(26, 25, 25, 0.1);
+    width: 60.28px;
+    height: 29.09px;
+    display: none;
+}
+/* Footer */
+.foot{
+    background-color: rgb(26, 25, 25, 0.7);
+    height: 150px;
+    width: 100%;
+    color:#ffffff;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.footImg{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.footImg1{
+    width: 65px;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.footImg2{
+    width: 65px;
+    height: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.footImg3{
+    width: 50px;
+    height: 65px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* Isi Website */
+.Container{
+    text-align:center;
+}
+
+.containHome{
+    height: 1000px;
+    width: 900px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    border: 20px solid rgb(0, 0, 0, 0.01);
+    background-color: rgb(0, 0, 0, 0.7);
+    display:inline-block;
+}
+
+.containGallery{
+    height: 3700px;
+    width: 900px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    border: 20px solid rgb(0, 0, 0, 0.01);
+    background-color: rgb(0, 0, 0, 0.7);
+    display:inline-block;
+    text-align: left;
+}
+
+.containNews{
+    height: 3450px;
+    width: 900px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    border: 20px solid rgb(0, 0, 0, 0.01);
+    background-color: rgb(0, 0, 0, 0.7);
+    display:inline-block;
+}
+
+.containEsport{
+    height: 2000px;
+    width: 900px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    border: 20px solid rgb(0, 0, 0, 0.01);
+    background-color: rgb(0, 0, 0, 0.7);
+    display:inline-block;
+}
+
+.containSubscription{
+    height: 700px;
+    width: 900px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    border: 20px solid rgb(0, 0, 0, 0.01);
+    background-color: rgb(0, 0, 0, 0.7);
+    display:inline-block;
+}
+
+
+.trailer{
+    border: 30px solid black;
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 800px;
+    height: 400px;
+}
+.trailer1{
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 900px;
+    height: 508px;
+}
+
+/* News */
+.NewsImg{
+    width: 608px;
+    height: 360px;
+    margin-bottom: 30px;
+}
+
+.NewsList{
+    margin-top: 30px;
+    padding-top: 50px;
+    background-color: black;
+    color: #ffffff;
+}
+
+.garis{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    height: 1px;
+    width: 500px;
+    background-color: white;
+}
+
+
+/* Car */
+.carlist{
+    align-items: center;
+    display: flex;
+}
+
+.carDesc{
+    padding: 30px;
+    color: #ffffff;;
+}
+.car-image{
+    width: 394.2px;
+    height: 220px;
+}
+
+/* Esport */
+.held{
+    display: flex;
+}
+
+.heldEsport{
+    width:200px;
+    height:200px;
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 120px;
+    border-radius: 25px;
+    background-color: rgb(70, 11, 122);
+    align-items: center;
+}
+
+.icon-img{
+    margin-top: 10px;
+    width: 130px;
+    height: 130px;
+}
+
+/* Sponsor */
+.sponsorSec{
+    
+    display: flex;
+    
+}
+.sponsorPad{
+    width:200px;
+    height: 285px;
+    color: #ffffff;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px;
+}
+.sponsorPad1{
+    width:250px;
+    height: 115px;
+    color: #ffffff;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 29px;
+    margin-top: 50px;
+}
+
+.sponsorPad2{
+    width:250px;
+    height: 160px;
+    color: #ffffff;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 325px;
+    margin-top: 50px;
+}
+
+.sponsor{
+    width: 182.2px;
+    height: 216px;
+    margin-bottom: 20px;
+}
+
+.sponsor1{
+    width: 240px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.sponsor2{
+    width: 240px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+/* Form */
+.formPad{
+    margin-top: 30px;
+    padding-top: 50px;
+    background-color: black;
+    color: #ffffff;
+    
+}
+
+.formList{
+    text-align: left;
+    margin-left: 50px;
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.typing {
+    width: 500px;
+    height: 18px;
+    padding: 12px 10px;
+    margin: 8px 0;
+    font-size: 20px;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.typing1 {
+    width: 70px;
+    height: 18px;
+    padding: 12px 10px;
+    margin: 8px 0;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+/* Font */
+.font-judul{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    font-size: 40px;
+    color: white;
+}
+
+.font-judulC{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.font-judulN{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align:center ;
+}
+
+.font-biasa{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.489);
+    text-align:left ;
+    text-indent: 50px;
+}
+
+.font-biasa1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 0px;
+}
+
+.font-NewsDetail{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.489);
+    text-align:left;
+    padding: 10px;
+    padding-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-indent: 50px;
+
+}
+
+@media screen and (max-width: 768px) {
+    /* Navigation */
+    .navContent{
+        display: none;
+    }
+    .navContentActive{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .menu-logo{
+        display: block;
+    }
+
+    /* Contain per Nav */
+    .containHome{
+        width: 600px;
+    }
+    .containGallery{
+        width: 600px;
+        height: 2750px;
+    }
+    .containNews{
+        width:600px;
+        height: 3580px;
+    }
+    .containEsport{
+        width:600px;
+        height: 1400px;
+    }
+    .containSubscription{
+        height: 660px;
+        width: 600px;
+    }
+
+    /* Car */
+    .carDesc{
+        padding:20px;
+    }
+    .car-image{
+        width: 264.2px;
+        height: 150px;
+    }
+
+    .trailer{
+        width: 450px;
+        height: 300px;
+    }
+    .trailer1{
+        width: 600px;
+        height: 343px
+    }
+    /* Esport */
+    .heldEsport{
+        width:130px;
+        height:130px;
+        margin-top: 30px;
+    }    
+
+    .icon-img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .font-biasa1{
+        font-size: 16px;
+    }
+
+    /* Sponsor */
+    .sponsorPad{
+        width:200px;
+        height: 160px;
+        color: #ffffff;
+        font-size: 20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 30px;
+    }
+    .sponsorPad1{
+        width:125px;
+        height: 57.5px;
+        color: #ffffff;
+        font-size: 20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 10px;
+    }
+    .sponsorPad2{
+        width:125px;
+        height: 95px;
+        color: #ffffff;
+        font-size: 20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 237.5px;
+        margin-top: 50px;
+    }
+    .sponsor1{
+        width: 120px;
+        height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .sponsor2{
+        width: 120px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    .sponsor{
+        width: 91.1px;
+        height: 108px;
+        margin-bottom: 20px;
+    }
+    
+    /* Subscription */
+    .typing {
+        width: 250px;
+    }
+    .typing1 {
+        width: 70px;
+    }
+}

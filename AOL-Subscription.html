@@ -1,0 +1,97 @@
+<DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="AOL.css">
+    </head>
+    <body>
+        <div class="navMenu">
+            <img class="navContent" id="logo" src="AOL\Asset\Icon\logo2.png">
+            <a class="navContent" href="AOL-Home.html">Home</a>
+            <a class="navContent" href="AOL-Gallery.html">Gallery</a>
+            <a class="navContent" href="AOL-News.html">News</a>
+            <a class="navContent" href="AOL-Esport.html">Esport</a>
+            <a class="navContentActive">Creator</a>
+        </div>
+    
+        <div class="navMenu" >
+            <img class="menu-logo" id="logo" src="AOL\Asset\Icon\logo2.png">
+            <a onclick="openNav()"><img class="menu-icon" src="AOL\Asset\Icon\Menu-icon.png"></a>
+        </div>
+        
+        <div id="myNav" class="overlay">
+            <a class="closebtn" onclick="closeNav()"><img class="close-button" src="AOL\Asset\Icon\Close-button.png"></a>
+            <div class="overlay-content">
+                <a class="overlay-Cfont" >Home</a>  
+                <a class="overlay-Cfont" href="AOL-Gallery.html">Gallery</a>
+                <a class="overlay-Cfont" href="AOL-News.html">News</a>
+                <a class="overlay-Cfont" href="AOL-Esport.html">Esport</a>
+                <a class="overlay-CfontActive">Creator</a>
+            </div>
+        </div>
+
+            <div class="container">
+                <div class="containSubscription">
+                    <div class="font-judul">Creator Subscription</div>
+                    <div class="formPad">
+                        <div class="formList">
+                            <label for="username">Username :</label>
+                            <div></div>
+                            <input class="typing" type="text" name="Username" id="username">
+                        </div>
+                        <div class="formList">
+                            <label for="email">Email :</label>
+                            <div></div>
+                            <input class="typing" type="text" name="Email" id="email">
+                        </div>
+                        <div class="formList">
+                            <label for="BirthDate">Birth Date:</label>
+                            <div>
+                                Date <input class="typing1" type="text" name="Date" id="date">
+                                Month <input class="typing1" type="text" name="Month" id="month">
+                                Year <input class="typing1" type="text" name="Year" id="year">
+                            </div>
+                        </div>
+                        <div class="formList">
+                            <label for="Gender">Gender :</label>
+                            <div></div>
+                            Male
+                            <input type="radio" name="Gender" id="male"></br>
+                            Female
+                            <input type="radio" name="Gender" id="female">
+                        </div>
+                        
+                        <div class="formList">
+                            <input  type="checkbox" name="Acc" id="acc">
+                            
+                            <label for="acc">I Accept Term and Condition</label>
+                        </div>
+                        <div>
+                            <label for="" id="errorMassage"></label>
+                        </div>
+            
+                        <button  class="formList" type="button" onclick="ValidationData()">Submit</button>
+                    </div>
+                </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <footer class="foot">
+                Follow
+                <p>
+                    <img class="footImg" src="AOL\Asset\Icon\Facebook.png">
+                    <img class="footImg1" src="AOL\Asset\Icon\Twitter.png">
+                    <img class="footImg" src="AOL\Asset\Icon\Instagram.png">
+                    <img class="footImg1" src="AOL\Asset\Icon\Discord.png">
+                    <img class="footImg2" src="AOL\Asset\Icon\Youtube.jpg">
+                    <img class="footImg3" src="AOL\Asset\Icon\Tiktok.png">
+                </p>
+            </footer> 
+            <script src="AOL.js"></script>  
+        </body>
+    </html>
